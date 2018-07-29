@@ -1,0 +1,17 @@
+[Unit]
+Description=TeamSpeak 3 Server
+
+[Service]
+ExecStart=/usr/share/teamspeak/ts3server_startscript.sh start
+ExecStop=/usr/share/teamspeak/ts3server_startscript.sh stop
+PIDFile=/usr/share/teamspeak/ts3server.pid
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=teamspeak
+User=teamspeak
+Group=teamspeak
+Type=Forking
+
+[Install]
+WantedBy=multi-user.target
