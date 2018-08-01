@@ -39,5 +39,5 @@ A user has to be setup for running the teamspeak server. Run the following comma
 ## Execute the script
 If you're logged in as root user, you can type `./ts3update.sh` into the command line. At first the script asks you which version of TeamSpeak you want to install. Type in the version you want to install, like you can see on the homepage (i. e. 3.2.0). After that the script will update your teamspeak server.
 
-# Support the project
+# Contribute to the project
 With the issue feature you can report a bug or purpose improvements.
