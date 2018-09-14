@@ -7,6 +7,7 @@ Mithilfe des Scripts und des Services soll die Arbeit mit Teamspeak automatisier
 # Installation
 ## Service installieren
 Die Datei "teamspeak.service" unter /etc/systemd/system/teamspeak.service einfügen.
+Anschließend den Service mit `systemctl enable teamspeak.service` aktivieren.
 
 ## Teamspeak Script
 Empfohlen ist es das Script in das Verzeichnis /root abzulegen und immer als Root-User auszuführen.
@@ -28,6 +29,7 @@ This script and service supports you to install and upgrade the TeamSpeak server
 # Installation
 ## Install service
 Copy the file "teamspeak.service" into the following directory: /etc/systemd/system/teamspeak.service
+After that activate the service with the following command: `systemctl enable teamspeak.service`
 
 ## Teamspeak Script
 I recommend to store the 'ts3update.sh' script file at the directory /root. Root privilegues are also required to run the script.
