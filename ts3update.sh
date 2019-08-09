@@ -33,7 +33,7 @@ echo "Abgeschlossen"
 # Download des Teamspeak Servers
 echo "Download des Updates..."
 cd /tmp
-wget http://dl.4players.de/ts/releases/${version}/teamspeak3-server_linux_amd64-${version}.tar.bz2
+wget https://files.teamspeak-services.com/releases/server/${version}/teamspeak3-server_linux_amd64-${version}.tar.bz2
 echo "Abgeschlossen"
 
 # Entpacken des neuen TS-Servers
